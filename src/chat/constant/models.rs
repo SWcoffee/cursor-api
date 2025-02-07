@@ -78,6 +78,11 @@ pub const AVAILABLE_MODELS2: [DefaultModel; 22] = [
     DefaultModel {
         default_on: true,
         is_long_context_only: Some(false),
+        name: O3_MINI,
+    },
+    DefaultModel {
+        default_on: true,
+        is_long_context_only: Some(false),
         name: O1_MINI,
     },
     DefaultModel {

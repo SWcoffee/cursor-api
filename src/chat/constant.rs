@@ -35,6 +35,7 @@ def_pub_const!(CLAUDE_3_HAIKU_200K, "claude-3-haiku-200k");
 def_pub_const!(CLAUDE_3_5_SONNET_200K, "claude-3-5-sonnet-200k");
 def_pub_const!(CLAUDE_3_5_SONNET_20241022, "claude-3-5-sonnet-20241022");
 def_pub_const!(GPT_4O_MINI, "gpt-4o-mini");
+def_pub_const!(O3_MINI, "o3-mini");
 def_pub_const!(O1_MINI, "o1-mini");
 def_pub_const!(O1_PREVIEW, "o1-preview");
 def_pub_const!(O1, "o1");
@@ -169,6 +170,7 @@ create_model!(
     CLAUDE_3_5_SONNET_200K, ANTHROPIC,
     CLAUDE_3_5_SONNET_20241022, ANTHROPIC,
     GPT_4O_MINI, OPENAI,
+    O3_MINI, OPENAI,
     O1_MINI, OPENAI,
     O1_PREVIEW, OPENAI,
     O1, OPENAI,
